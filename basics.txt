@@ -1,0 +1,7 @@
+Signals are a way for certain actions that occur in your application to trigger specific functions or methods automatically.
+
+Signals allow a sender to notify a receiver that a certain action has taken place.
+
+For ex: let's say you have a User model in your application, and you want to send a welcome email to new users when they sign up. You can use signals to automatically trigger a function that sends the welcome email whenever a new user object is created.
+
+There are 2 popular signals in django: pre_save and post_save which call some kind of receiver just before and after saving. Receiver will handle the kind of logic we need to perform.
