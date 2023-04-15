@@ -13,7 +13,5 @@ class PostsConfig(AppConfig):
 
     def ready(self):
         import base.signals
-    
-    '''
 
-'''this code will only run if we add "appname.apps.AppnameConfig" in installed apps in settings.py'''
+this code will only run if we add "appname.apps.AppnameConfig" in installed apps in settings.py'''
